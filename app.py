@@ -67,14 +67,14 @@ Hi <b>{}</b> 👋
 
 I can play music & stream videos in Telegram group voice chats. 
 
-Make your own bot using below source code.
+Repo of this bot will be provided very soon.
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("📨 Support", url="https://t.me/JaguarBots"),
-            InlineKeyboardButton("📚 Source Code", url="https://github.com/ImJanindu/47MusicPlayerBot")
+            InlineKeyboardButton("📨 Support", url="https://t.me/Titanium_Xyz"),
+            InlineKeyboardButton("🇮🇳 Owner", url="https://t.me/ShivamIpa")
         ]
     ]
 )
@@ -91,6 +91,9 @@ BUTTONS = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton("🗑 Close Menu", callback_data="close")
+        ],
+        [
+            InlineKeyboardButton("💬 Support", url="https://t.me/ShivamIpa")
         ]
     ]
 )
